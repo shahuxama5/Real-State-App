@@ -1,1 +1,5 @@
-<p>I am a List!</p>
+<div class="row">
+  <div class="col-sm-4 shadow-lg p-3" *ngFor="let prop of propertyList">
+    <app-property-card [property]="prop"></app-property-card>
+  </div>
+</div>
