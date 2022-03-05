@@ -1,3 +1,4 @@
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { PropertyDetailComponent } from './property/property-detail/property-detail.component';
 import { PropertyListComponent } from './property/property-list/property-list.component';
 import { AddPropertyComponent } from './property/add-property/add-property.component';
@@ -9,9 +10,6 @@ const routes: Routes = [
     path: '', component: PropertyListComponent
   },
   {
-    path: 'buy-property', component: PropertyListComponent
-  },
-  {
     path: 'rent-property', component: PropertyListComponent
   },
   {
@@ -19,6 +17,9 @@ const routes: Routes = [
   },
   {
     path: 'property-detail/:id', component: PropertyDetailComponent
+  },
+  {
+    path: '**', component: PageNotFoundComponent
   }
 ];
 

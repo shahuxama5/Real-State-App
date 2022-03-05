@@ -1,6 +1,7 @@
 <div class="card">
   <div class="card-img-wrapper">
-    <img src="./../../../assets/house1.png" class="card-img-top" alt="House">
+    <img *ngIf="property.image" src="./../../../assets/{{ property.image}}" class="card-img-top" alt="House">
+    <img *ngIf="!property.image" src="./../../../assets/defaultHouse.png" class="card-img-top" alt="House">
     <ul class="list-inline text-center member-icons animate">
       <li class="list-inline-item">
         <button class="btn btn-primary" routerLink="/property-detail/{{property.id}}">
@@ -16,7 +17,7 @@
   </div>
   <div class="card-body p-2">
     <h2 class="card-title">{{ property.name }}</h2>
-    <h4 class="card-text">{{ property.house }}</h4>
+    <h4 class="card-text">{{ property.type }}</h4>
     <h4 class="card-text">{{ property.price }}</h4>
   </div>
 </div>

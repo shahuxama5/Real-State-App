@@ -11,6 +11,8 @@ import { PropertyCardComponent } from './property/property-card/property-card.co
 import { PropertyListComponent } from './property/property-list/property-list.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { HttpClientModule } from '@angular/common/http';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -19,12 +21,14 @@ import { HttpClientModule } from '@angular/common/http';
     PropertyListComponent,
     NavBarComponent,
     AddPropertyComponent,
-    PropertyDetailComponent
-  ],
+    PropertyDetailComponent,
+      PageNotFoundComponent
+   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [
     HousingService

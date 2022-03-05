@@ -2,48 +2,71 @@
   {
   "id": 1,
   "name": "Uxama House",
-  "house": "House",
-  "price": 12000
+  "sellRent": 1,
+  "type": "House",
+  "price": 12000,
+  "image": "house1.jpg"
 },
 {
   "id": 2,
   "name": "Dani House",
-  "house": "Apartment",
-  "price": 14000
+  "sellRent": 1,
+  "type": "Apartment",
+  "price": 14000,
+  "image": "house2.jpg"
 },
 {
   "id": 3,
   "name": "Tommy House",
-  "house": "Banglow",
-  "price": 12000
+  "sellRent": 2,
+  "type": "Banglow",
+  "price": 12000,
+  "image": "house3.jpg"
 },
 {
   "id": 4,
   "name": "Kudo House",
-  "house": "Farm House",
-  "price": 11000
+  "sellRent": 1,
+  "type": "Farm House",
+  "price": 11000,
+  "image": "house4.jpg"
 },{
   "id": 5,
   "name": "Nibba House",
-  "house": "House",
-  "price": 2000
+  "sellRent": 2,
+  "type": "House",
+  "price": 2000,
+  "image": "house5.jpg"
 },
 {
   "id": 6,
   "name": "Butt House",
-  "house": "Apartment",
-  "price": 18000
+  "sellRent": 2,
+  "type": "Apartment",
+  "price": 18000,
+  "image": "house6.jpg"
 },
 {
   "id": 7,
   "name": "Papa House",
-  "house": "Banglow",
-  "price": 90000
+  "sellRent": 1,
+  "type": "Banglow",
+  "price": 90000,
+  "image": "house7.jpg"
 },
 {
   "id": 8,
   "name": "Rangar House",
-  "house": "Farm House",
-  "price": 1000
+  "sellRent": 2,
+  "type": "Farm House",
+  "price": 1000,
+  "image": "house8.jpg"
+},
+{
+  "id": 9,
+  "name": "ZiaPara House",
+  "sellRent": 2,
+  "type": "Dairymilk House",
+  "price": 11000
 }
 ]
